@@ -24,8 +24,7 @@ class TransitionPage extends StatelessWidget {
               width: 120,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.grey[300],
-                  onPrimary: Colors.black,
+                  foregroundColor: Colors.black, backgroundColor: Colors.grey[300],
                 ),
                 onPressed: () {
                   Navigator.of(context).push(
@@ -56,8 +55,7 @@ class TransitionPage extends StatelessWidget {
               width: 120,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.grey[300],
-                  onPrimary: Colors.black,
+                  foregroundColor: Colors.black, backgroundColor: Colors.grey[300],
                 ),
                 onPressed: () {
                   Navigator.of(context).push(
@@ -88,8 +86,7 @@ class TransitionPage extends StatelessWidget {
               width: 120,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.grey[300],
-                  onPrimary: Colors.black,
+                  foregroundColor: Colors.black, backgroundColor: Colors.grey[300],
                 ),
                 onPressed: () {
                   Navigator.of(context).push(
@@ -156,8 +153,7 @@ class _PageA extends StatelessWidget {
               width: 120,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.orange,
-                  onPrimary: Colors.black,
+                  foregroundColor: Colors.black, backgroundColor: Colors.orange,
                 ),
                 onPressed: () => Navigator.of(context).pop(),
                 child: const Text('戻る'),

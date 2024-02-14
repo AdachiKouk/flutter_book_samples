@@ -74,8 +74,7 @@ class _Body extends StatelessWidget {
                   style: ElevatedButton.styleFrom(
                     textStyle: const TextStyle(
                       color: Colors.white,
-                    ),
-                    primary: Theme.of(context).accentColor,
+                    ), backgroundColor: Theme.of(context).colorScheme.secondary,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(4),
                     ),

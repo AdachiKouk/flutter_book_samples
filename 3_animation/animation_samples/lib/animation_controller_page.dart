@@ -85,13 +85,12 @@ class _AnimationControllerPageState extends State<AnimationControllerPage>
               width: 130,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.grey[300],
-                  onPrimary: Colors.black,
+                  foregroundColor: Colors.black, backgroundColor: Colors.grey[300],
                 ),
                 onPressed: _animationController.forward,
-                child: Row(
+                child: const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
+                  children: [
                     Icon(Icons.play_arrow),
                     Text(
                       '再生',
@@ -104,8 +103,7 @@ class _AnimationControllerPageState extends State<AnimationControllerPage>
               width: 130,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.grey[300],
-                  onPrimary: Colors.black,
+                  foregroundColor: Colors.black, backgroundColor: Colors.grey[300],
                 ),
                 onPressed: _animationController.reverse,
                 child: Row(
@@ -126,8 +124,7 @@ class _AnimationControllerPageState extends State<AnimationControllerPage>
               width: 130,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.grey[300],
-                  onPrimary: Colors.black,
+                  foregroundColor: Colors.black, backgroundColor: Colors.grey[300],
                 ),
                 onPressed: _animationController.stop,
                 child: Row(
@@ -148,13 +145,12 @@ class _AnimationControllerPageState extends State<AnimationControllerPage>
               width: 130,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.grey[300],
-                  onPrimary: Colors.black,
+                  foregroundColor: Colors.black, backgroundColor: Colors.grey[300],
                 ),
                 onPressed: _animationController.reset,
-                child: Row(
+                child: const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
+                  children: [
                     Icon(Icons.stop),
                     Text(
                       '停止',
@@ -167,13 +163,12 @@ class _AnimationControllerPageState extends State<AnimationControllerPage>
               width: 130,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.grey[300],
-                  onPrimary: Colors.black,
+                  foregroundColor: Colors.black, backgroundColor: Colors.grey[300],
                 ),
                 onPressed: _animationController.repeat,
-                child: Row(
+                child: const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
+                  children: [
                     Icon(Icons.repeat),
                     Text(
                       'リピート',

@@ -53,7 +53,7 @@ class ConfirmDialog {
                       width: size.width,
                       child: ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          primary: Colors.blue,
+                          backgroundColor: Colors.blue,
                           shape: const StadiumBorder(),
                         ),
                         onPressed: () {

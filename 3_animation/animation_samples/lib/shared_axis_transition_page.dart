@@ -53,8 +53,7 @@ class _SharedAxisTransitionPageState extends State<SharedAxisTransitionPage> {
             ),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                primary: Colors.grey[300],
-                onPrimary: Colors.black,
+                foregroundColor: Colors.black, backgroundColor: Colors.grey[300],
               ),
               onPressed: _toggleImages,
               child: const Text('切り替える'),

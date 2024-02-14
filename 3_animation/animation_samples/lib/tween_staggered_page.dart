@@ -115,16 +115,14 @@ class _TweenStaggeredPageState extends State<TweenStaggeredPage>
             ),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                primary: Colors.grey[300],
-                onPrimary: Colors.black,
+                foregroundColor: Colors.black, backgroundColor: Colors.grey[300],
               ),
               onPressed: _animationController.forward,
               child: const Text('再生'),
             ),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                primary: Colors.grey[300],
-                onPrimary: Colors.black,
+                foregroundColor: Colors.black, backgroundColor: Colors.grey[300],
               ),
               onPressed: _animationController.reverse,
               child: const Text('逆再生'),

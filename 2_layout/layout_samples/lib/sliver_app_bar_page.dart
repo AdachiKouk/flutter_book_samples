@@ -26,7 +26,7 @@ class _SliverAppBarPageState extends State<SliverAppBarPage> {
   Widget build(BuildContext context) {
     return MediaQuery(
       data: MediaQuery.of(context).copyWith(
-        textScaleFactor: _textScale,
+        textScaler: TextScaler.linear(_textScale),
       ),
       child: Scaffold(
         body: CustomScrollView(
@@ -286,10 +286,10 @@ class _ClipRRectArticle extends StatelessWidget {
                                     const SizedBox(
                                       width: 10,
                                     ),
-                                    Column(
+                                    const Column(
                                       crossAxisAlignment:
                                           CrossAxisAlignment.start,
-                                      children: const [
+                                      children: [
                                         Text(
                                           '山田 太郎',
                                           style: TextStyle(

@@ -57,10 +57,10 @@ class _ShrinkableFooterPageState extends State<ShrinkableFooterPage> {
                         bottomLeft: Radius.circular(20.0)),
                     color: Color(0xFFFEEAE6),
                   ),
-                  child: Column(
+                  child: const Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisSize: MainAxisSize.min,
-                    children: const [
+                    children: [
                       SizedBox(height: 70),
                       Text(
                         'スクロールに応じて\nBottomNavigationBarが\n縮みます。',
